@@ -8,21 +8,35 @@ body {
     list-style: none;
 }
 
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+} 
+
 .link {
     text-decoration: none;
 }
 
 img {
     display: block;
+    max-width: 100%;
 }
 
 h1,h2,h3,h4,h5,h6,ul,p {
-    margin: 0;
-    padding: 0,
+    margin-top: 0;
+    padding-bottom: 0,
+}
+
+.accent-color {
+    color: #E7E9FC;
 }
 
 .container {
-    width: 1158px;
+        width: 1158px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
 }
 
 /*---------------HEADER STYLES-----------------*/
@@ -33,9 +47,6 @@ justify-content: space-between;
 padding: 24px 0;
 border-bottom: 1px solid #e7e9fc
 }
-
-
-
 
 .span-logotype {
     font-family: 'Raleway', sans-serif;
