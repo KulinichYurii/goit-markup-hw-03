@@ -31,6 +31,9 @@ padding: 24px 0;
 border-bottom: 1px solid #e7e9fc
 }
 
+
+
+
 .span-logotype {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -89,6 +92,15 @@ border-bottom: 1px solid #e7e9fc
 
 
 /*---------------1 SECTION---------EFFECTIVE SOLUTIONS STYLES-------------------*/
+
+.solutions-container {
+
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .section-solutions {
     background-color: #2E2F42;
