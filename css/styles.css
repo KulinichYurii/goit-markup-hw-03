@@ -94,7 +94,9 @@ border-bottom: 1px solid #e7e9fc
 /*---------------1 SECTION---------EFFECTIVE SOLUTIONS STYLES-------------------*/
 
 .solutions-container {
-
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
 }
 
 .section {
