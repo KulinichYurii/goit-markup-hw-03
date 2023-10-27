@@ -12,7 +12,19 @@ body {
     text-decoration: none;
 }
 
+h1,h2,h3,h4,h5,h6,ul,p {
+    margin: 0;
+    padding: 0,
+}
+
+
 /*---------------HEADER STYLES-----------------*/
+
+.header-container {
+display: flex;
+justify-content: space-between;
+padding: 24px 0;
+}
 
 .span-logotype {
     font-family: 'Raleway', sans-serif;
