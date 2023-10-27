@@ -55,7 +55,11 @@ h1,h2,h3,h4,h5,h6,ul,p {
 
 /*---------------HEADER STYLES-----------------*/
 
-
+.page-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc
+}
 
 .span-logotype {
     font-family: 'Raleway', sans-serif;
@@ -77,6 +81,7 @@ h1,h2,h3,h4,h5,h6,ul,p {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .header-list-link {
@@ -112,13 +117,44 @@ h1,h2,h3,h4,h5,h6,ul,p {
     color: #434455;
 }
 
+.page-header .container {
+    display: flex;
+    justify-content: space-between;
+}
 
+.header-list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.navadress-list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header-list-link {
+    padding: 24px 0;
+}
 
 /*---------------1 SECTION---------EFFECTIVE SOLUTIONS STYLES-------------------*/
 
 .solutions-container {
     width: 1440px;
     height: 600px;
+    flex-shrink: 0;
+}
+
+.section-advantages {
+    background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
     flex-shrink: 0;
 }
 
@@ -151,7 +187,14 @@ h1,h2,h3,h4,h5,h6,ul,p {
     letter-spacing: 0.04em;
     color: #ffffff;
     background-color: #4D5AE5;
-
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
 }
 
 .order-button {
@@ -167,6 +210,12 @@ h1,h2,h3,h4,h5,h6,ul,p {
 }
 
 /*---------------2 SECTION---------ADVANTAGES STYLES-----------------*/
+.section-advantages {
+    background: #FFFFFF;
+    padding: 120px 0;
+}
+
+
 .advantages-title {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -175,6 +224,8 @@ h1,h2,h3,h4,h5,h6,ul,p {
     /* 120% */
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding-top: 0px;
+    margin-bottom: 8px;
 }
 
 .advantages-text {
@@ -186,6 +237,16 @@ h1,h2,h3,h4,h5,h6,ul,p {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+.advantages-list {
+    display: flex;
+    gap: 24px;
+}
+
+.advantages-list-item {
+    width: calc((100% - 72px) / 4);
+} 
+
 
 /*-----------------3 SECTION-----OUR TEAM-------------------------*/
 
