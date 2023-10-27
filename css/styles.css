@@ -55,12 +55,7 @@ h1,h2,h3,h4,h5,h6,ul,p {
 
 /*---------------HEADER STYLES-----------------*/
 
-.header-container {
-display: flex;
-justify-content: space-between;
-padding: 24px 0;
-border-bottom: 1px solid #e7e9fc
-}
+
 
 .span-logotype {
     font-family: 'Raleway', sans-serif;
