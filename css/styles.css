@@ -161,6 +161,8 @@ h1,h2,h3,h4,h5,h6,ul,p {
     
 
 .solutions-title {
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Roboto', sans-serif;
     font-size: 56px;
     font-weight: 700;
@@ -170,9 +172,7 @@ h1,h2,h3,h4,h5,h6,ul,p {
     color: #ffffff;
     text-align: center;
     max-width: 496px;
-    margin-left: auto;
-    margin-right: auto;
-}
+   }
 
 .order-button {
     font-family: 'Roboto', sans-serif;
