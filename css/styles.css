@@ -146,6 +146,7 @@ h1,h2,h3,h4,h5,h6,ul,p {
 /*---------------1 SECTION---------EFFECTIVE SOLUTIONS STYLES-------------------*/
 
 .section-solutions {
+    display: flex;
     background-color: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
