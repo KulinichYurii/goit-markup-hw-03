@@ -253,6 +253,11 @@ h1,h2,h3,h4,h5,h6,ul,p {
 
 }
 
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
 .team-list-item {
     display: flex;
     background-color: #ffffff;
