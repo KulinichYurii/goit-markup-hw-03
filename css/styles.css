@@ -245,11 +245,13 @@ h1,h2,h3,h4,h5,h6,ul,p {
 /*-----------------3 SECTION-----OUR TEAM-------------------------*/
 
 .section-team {
+    padding: 120px 0;
     background-color: #F4F4FD;
 
 }
 
 .team-list-item {
+    display: flex;
     background-color: #ffffff;
     flex-direction: row;
     padding-bottom: 0px;
@@ -287,6 +289,10 @@ h1,h2,h3,h4,h5,h6,ul,p {
     letter-spacing: 0.02em;
     color: #2E2F42;
 
+}
+
+.team-name-container {
+    padding: 32px 0;
 }
 
 .team-profs {
