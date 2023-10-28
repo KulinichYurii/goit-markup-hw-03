@@ -145,10 +145,10 @@ h1,h2,h3,h4,h5,h6,ul,p {
 
 /*---------------1 SECTION---------EFFECTIVE SOLUTIONS STYLES-------------------*/
 
-.solutions-container {
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
+.section-solutions {
+    background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .section-advantages {
@@ -157,15 +157,7 @@ h1,h2,h3,h4,h5,h6,ul,p {
     padding-bottom: 188px;
     flex-shrink: 0;
 }
-
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-.section-solutions {
-    background-color: #2E2F42;
-}
+    
 
 .solutions-title {
     font-family: 'Roboto', sans-serif;
@@ -176,6 +168,7 @@ h1,h2,h3,h4,h5,h6,ul,p {
     letter-spacing: 0.02em;
     color: #ffffff;
     text-align: center;
+    max-width: 496px;
 }
 
 .order-button {
