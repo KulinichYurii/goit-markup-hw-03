@@ -252,13 +252,24 @@ h1,h2,h3,h4,h5,h6,ul,p {
 
 .section-team {
     background-color: #F4F4FD;
+
 }
 
 .team-list-item {
     background-color: #ffffff;
+    flex-direction: row;
+    padding-bottom: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
 }
 
-.team-title {
+.team-title { 
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-weight: 700;
@@ -268,15 +279,18 @@ h1,h2,h3,h4,h5,h6,ul,p {
     text-transform: capitalize;
     color: #2E2F42;
     text-align: center;
-}
+    margin-bottom: 72px;
+    text-align: center;
+    flex-shrink: 0;
+    }
 
-.team-names {
-    font-family: 'Roboto', sans-serif;
+.team-names { 
+    text-align: center;
+    margin-bottom: 8px;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.2;
-    /* 120% */
     letter-spacing: 0.02em;
     color: #2E2F42;
 
@@ -291,7 +305,13 @@ h1,h2,h3,h4,h5,h6,ul,p {
     /* 150% */
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
+
+
+
+
+
 
 /*-----------------4 SECTION-----OUR PORTFOLIO-----------------*/
 
