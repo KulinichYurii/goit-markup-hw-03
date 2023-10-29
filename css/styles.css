@@ -213,6 +213,7 @@ h1,h2,h3,h4,h5,h6,ul,p {
 
 
 .advantages-title {
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -237,10 +238,9 @@ h1,h2,h3,h4,h5,h6,ul,p {
     gap: 24px;
 }
 
-.advantages-list-item {
-
+.advantages-list-item { 
+    width: calc((100% - 72px) / 4);
 }
-
 
 /*-----------------3 SECTION-----OUR TEAM-------------------------*/
 
