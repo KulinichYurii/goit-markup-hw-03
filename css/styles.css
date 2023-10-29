@@ -239,12 +239,11 @@ h1,h2,h3,h4,h5,h6,ul,p {
     gap: 24px;
 }
 
-
 .advantages-list-item {
     width: calc((100% - 72px) / 4);
 }
 
-/*-----------------3 SECTION-----OUR TEAM-------------------------*/
+/*-----------3 SECTION-----OUR TEAM--------------------*/
 
 .section-team {
     display: flex;
