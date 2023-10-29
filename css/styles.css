@@ -367,7 +367,7 @@ h1,h2,h3,h4,h5,h6,ul,p {
 .portfolio-list-item {
     padding-bottom: 0px;
     background: var(--WHITE, #FFF);
-    width: calc((100%-48px)/3);
+    width: calc((100% - 48px)/3);
 
 }
 
