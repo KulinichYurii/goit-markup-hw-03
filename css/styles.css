@@ -1,4 +1,4 @@
-/* ======= COMMON STYLES ======== */
+/*-------COMMON STYLES -------*/
 
 button {
     cursor: pointer;
@@ -10,19 +10,12 @@ body {
     background-color: #FFFFFF;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+h1,h2,h3,h4,h5,h6,p {
     margin-top: 0;
     margin-bottom: 0;
 }
 
-ul,
-ol {
+ul,ol {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
@@ -76,9 +69,11 @@ img {
     overflow: hidden;
 }
 
-/* ======= /COMMON STYLES ======== */
+/*-------COMMON STYLES -------*/
 
-/* ======= HEADER STYLES ======== */
+
+/*-------HEADER STYLES -------*/
+
 .page-header {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -157,9 +152,9 @@ img {
 }
 
 
-/* ======= /HEADER STYLES ======== */
+/*-------HEADER STYLES -------*/
 
-/* ======= HERO STYLES ======== */
+/*-------HEADER STYLES ------- */
 
 .hero {
     background-color: #2E2F42;
