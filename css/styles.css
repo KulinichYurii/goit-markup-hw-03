@@ -354,7 +354,7 @@ h1,h2,h3,h4,h5,h6,ul,p {
     color: #434455;
 }
 
-.portfolio-list .list {
+.portfolio-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
