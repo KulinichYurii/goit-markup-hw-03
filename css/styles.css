@@ -28,16 +28,6 @@ h1,h2,h3,h4,h5,h6,ul,p {
     padding-bottom: 0,
 }
 
-.team-title, .portfolio-title {
-    text-align: center;
-    font-size: 36px;
-    line-height: 1.11;
-    /* 111.111% */
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
-
 .accent-color {
     color: #E7E9FC;
 }
@@ -263,6 +253,21 @@ h1,h2,h3,h4,h5,h6,ul,p {
 
 }
 
+.team-title { 
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    /* 111.111% */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    text-align: center;
+    margin-bottom: 72px;
+    text-align: center;
+    flex-shrink: 0;
+    }
+
 .team-list {
     display: flex;
     gap: 24px;
@@ -309,6 +314,19 @@ h1,h2,h3,h4,h5,h6,ul,p {
 .section-portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.portfolio-title {
+    margin-bottom: 72px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    /* 111.111% */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    text-align: center;
 }
 
 .portfolio-list {
