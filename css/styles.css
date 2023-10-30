@@ -28,6 +28,16 @@ h1,h2,h3,h4,h5,h6,ul,p {
     padding-bottom: 0,
 }
 
+.team-title, .portfolio-title {
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    /* 111.111% */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
 .accent-color {
     color: #E7E9FC;
 }
@@ -265,20 +275,6 @@ h1,h2,h3,h4,h5,h6,ul,p {
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-title { 
-    font-family: 'Roboto', sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    /* 111.111% */
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2E2F42;
-    text-align: center;
-    margin-bottom: 72px;
-    text-align: center;
-    flex-shrink: 0;
-    }
 
 .team-names { 
     text-align: center;
@@ -335,18 +331,7 @@ h1,h2,h3,h4,h5,h6,ul,p {
     margin-bottom: 8px;
 }
 
-.portfolio-title {
-    margin-bottom: 72px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    /* 111.111% */
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2E2F42;
-    text-align: center;
-}
+
 
 .portfolio-stuff {
     font-family: 'Roboto', sans-serif;
