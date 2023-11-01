@@ -25,7 +25,7 @@ img {
 
 h1,h2,h3,h4,h5,h6,ul,p {
     margin-top: 0;
-    padding-bottom: 0,
+    margin-bottom: 0;
 }
 
 .accent-color {
@@ -147,7 +147,6 @@ h1,h2,h3,h4,h5,h6,ul,p {
 /*---------------1 SECTION---------EFFECTIVE SOLUTIONS STYLES-------------------*/
 
 .section-solutions {
-    display: flex;
     background-color: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
@@ -247,7 +246,6 @@ h1,h2,h3,h4,h5,h6,ul,p {
 /*-----------3 SECTION-----OUR TEAM--------------------*/
 
 .section-team {
-    display: flex;
     padding: 120px 0;
     background-color: #F4F4FD;
 
@@ -276,7 +274,6 @@ h1,h2,h3,h4,h5,h6,ul,p {
 .team-list-item {
     background: var(--WHITE, #fff);
     width: calc((100% - 72px) / 4);
-    padding-bottom: 32px;
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -346,7 +343,6 @@ h1,h2,h3,h4,h5,h6,ul,p {
     padding: 32px 16px;
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
     border-top: none;
-    margin-bottom: 8px;
 }
 
 
